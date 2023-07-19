@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ("install dependencies") {
             steps {
-                scripts {
+                script {
                     echo "Installing dependencies"
                 }
             }
